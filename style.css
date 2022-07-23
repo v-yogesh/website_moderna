@@ -35,15 +35,15 @@ section {
 header{
 
     width: 100%;
-    height: 500px;
+    height: 300px;
     
     display: flex;
     flex-flow: row wrap;
     justify-content:flex-end;
 
     background-image: url(buildings.jpg);
-    background-repeat:no-repeat;
-    object-fit:fill;
+    background-origin: content-box;
+    background-size:cover;
     
     
     
@@ -187,6 +187,11 @@ footer {
 
 .footeritems{
     display: flex;
-    flex-flow: column;
+    flex-flow: row wrap;
+    justify-items: stretch;
     list-style: none;
+}
+
+.footercolumn{
+    padding-left: 20px;
 }
