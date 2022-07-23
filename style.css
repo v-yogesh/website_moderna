@@ -118,7 +118,7 @@ nav{
     margin: 5px;
     
     width:200px;
-    min-width: 50px; /*max-content;*/
+    min-width: max(50px,max-content);
     
     align-items: center;
     text-align: center;
